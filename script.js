@@ -159,7 +159,7 @@ btn3Do.addEventListener('click', function() {
     notGood3.style.visibility = 'hidden'
     btn3Do.style.backgroundColor = 'chartreuse'
     btn3Do.style.color = 'black'
-    word3.innerHTML = 'Do'
+    word3.innerHTML = 'do'
     word3.style.color = 'chartreuse'
     value++
     document.getElementById('score').innerHTML = value
@@ -182,7 +182,7 @@ btn3Does.addEventListener('click', function() {
     notGood3.style.visibility = 'visible'
     btn3Does.style.backgroundColor = 'red'
     btn3Does.style.color = 'yellow'
-    word3.innerHTML = 'Does'
+    word3.innerHTML = 'does'
     word3.style.color = 'red'
     value--
     document.getElementById('score').innerHTML = value
@@ -201,7 +201,7 @@ btn3Are.addEventListener('click', function() {
     notGood3.style.visibility = 'visible'
     btn3Are.style.backgroundColor = 'red'
     btn3Are.style.color = 'yellow'
-    word3.innerHTML = 'Are'
+    word3.innerHTML = 'are'
     word3.style.color = 'red'
     value--
     document.getElementById('score').innerHTML = value
