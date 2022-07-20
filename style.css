@@ -150,11 +150,11 @@
     display: flex;
     width: 50px;
     margin-bottom: 5px;
-    visibility: visible;
+    visibility: hidden;
 }
 .not-good {
     display: flex;
     width: 50px;
     margin-bottom: 5px;
-    visibility: visible;
+    visibility: hidden;
 }
