@@ -78,14 +78,21 @@
     height: 50px;
 }
 
-.names {
+.names-jack {
     font-family: 'Bangers';
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: rgb(0, 183, 255);
     margin-right: 10px;
 }
 
+.names-ana {
+    font-family: 'Bangers';
+    font-size: 1.3rem;
+    color: rgb(255, 251, 0);
+    margin-right: 10px;
+}
 .line-A {
+    font-size: 0.9em;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -134,7 +141,7 @@
 
 .words {
     color:rgb(0, 255, 13);
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-right: 5px;
     Margin-left: 5px
 }
@@ -142,14 +149,12 @@
 .like {
     display: flex;
     width: 50px;
-    justify-content: center;
     margin-bottom: 5px;
     visibility: visible;
 }
 .not-good {
     display: flex;
     width: 50px;
-    justify-content: center;
     margin-bottom: 5px;
     visibility: visible;
 }
