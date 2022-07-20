@@ -16,8 +16,8 @@
     background: #fff;
     color:rgb(220, 0, 220);
     text-shadow: 1px 1px 2px black;
-    max-width: 450px;
-    height: 50px;
+    max-width: 400px;
+    height: 40px;
     margin: 0 auto;
     padding: 5px;
 }
@@ -27,14 +27,14 @@
     justify-content: center;
     align-items: center;
     position: sticky;
-    top: 50px;
+    top: 40px;
     background: #fff;
     color:rgb(220, 0, 220);
     text-shadow: 1px 1px 2px black;
-    max-width: 450px;
+    max-width: 400px;
     height: 40px;
     margin: 0 auto;
-    padding: 5px;
+    padding: 0px;
 }
 
 .score {
@@ -54,27 +54,27 @@
 
 .questions-container-A {
     display: grid;
-    grid-template-columns: 80% 10% 10%;
+    grid-template-columns: 75% 10% 15%;
     justify-content: start;
     align-items: center;
     margin: 0 auto;
     background: rgb(0, 20, 40);
     color: #fff;
     font-family: 'Carter One';
-    max-width: 450px;
+    max-width: 400px;
     height: 50px;
 }
 
 .questions-container-B {
     display: grid;
-    grid-template-columns: 80% 10% 10%;
+    grid-template-columns: 75% 10% 15%;
     justify-content: start;
     align-items: center;
     margin: 0 auto;
     background: rgb(0, 20, 40);
     color: #fff;
     font-family: 'Carter One';
-    max-width: 450px;
+    max-width: 400px;
     height: 50px;
 }
 
@@ -97,7 +97,7 @@
     display:flex;
     justify-content: start;
     align-items: center;
-    max-width: 450px;
+    max-width: 400px;
     margin:0px auto;
     background: rgb(0, 20, 40);
 }
@@ -106,7 +106,7 @@
     display:flex;
     justify-content: start;
     align-items: center;
-    max-width: 450px;
+    max-width: 400px;
     margin:0px auto;
     background: rgb(0, 20, 40);
 }
@@ -143,13 +143,13 @@
     display: flex;
     width: 50px;
     justify-content: center;
-    margin-bottom: 0px;
-    visibility: hidden;
+    margin-bottom: 5px;
+    visibility: visible;
 }
 .not-good {
     display: flex;
     width: 50px;
     justify-content: center;
-    margin-bottom: 0px;
-    visibility: hidden;
+    margin-bottom: 5px;
+    visibility: visible;
 }
