@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Lato:wght@300&family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.heading-container {
+    font-family: 'bangers';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    color:rgb(220, 0, 220);
+    text-shadow: 1px 1px 2px black;
+    max-width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 50px;
+    background: #fff;
+    color:rgb(220, 0, 220);
+    text-shadow: 1px 1px 2px black;
+    max-width: 500px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+
+
+.score {
+    font-family: 'Bangers';
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.score-number {
+    color:rgb(0, 255, 13);
+    margin-left: 10px;
+    font-size: 2.2rem;
+}
+
+.questions-container-A {
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+    background: rgb(0, 20, 40);
+    color: #fff;
+    font-family: 'Carter One';
+    width: 500px;
+    height: 50px;
+}
+
+.questions-container-B {
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+    background: rgb(0, 20, 40);
+    color: #fff;
+    font-family: 'Carter One';
+    width: 500px;
+    height: 50px;
+}
+
+.names {
+    font-family: 'Bangers';
+    font-size: 1rem;
+    color: rgb(0, 183, 255);
+    margin-right: 10px;
+}
+
+.line-A {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px;
+    height: 40px
+}
+
+.buttons-container-A {
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    width: 500px;
+    margin:0px auto;
+    background: rgb(0, 20, 40);
+}
+
+.buttons-container-B {
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    width: 500px;
+    margin:0px auto;
+    background: rgb(0, 20, 40);
+}
+
+.buttons {
+    cursor: pointer;
+    font-family: 'Carter One';
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 70px;
+    height: 20px;
+    background-color: rgb(0, 156, 177);
+    color: rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 3px;
+    transition: 0.3s;
+      }
+      
+.buttons:hover {
+    transform: scale(1.05);
+    color: #fff;
+    background-color: rgb(0, 193, 207);
+    }
+
+.words {
+    color:rgb(0, 255, 13);
+    font-size: 1.1rem;
+    margin-right: 5px;
+    Margin-left: 5px
+}
+
+.like {
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    margin-bottom: 0px;
+    visibility: hidden;
+}
+.not-good {
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    margin-bottom: 0px;
+    visibility: hidden;
+}
