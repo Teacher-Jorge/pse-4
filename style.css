@@ -16,7 +16,7 @@
     background: #fff;
     color:rgb(220, 0, 220);
     text-shadow: 1px 1px 2px black;
-    max-width: 500px;
+    max-width: 450px;
     height: 50px;
     margin: 0 auto;
     padding: 5px;
@@ -31,13 +31,11 @@
     background: #fff;
     color:rgb(220, 0, 220);
     text-shadow: 1px 1px 2px black;
-    max-width: 500px;
+    max-width: 450px;
     height: 40px;
     margin: 0 auto;
     padding: 5px;
 }
-
-
 
 .score {
     font-family: 'Bangers';
@@ -63,7 +61,7 @@
     background: rgb(0, 20, 40);
     color: #fff;
     font-family: 'Carter One';
-    width: 500px;
+    max-width: 450px;
     height: 50px;
 }
 
@@ -76,7 +74,7 @@
     background: rgb(0, 20, 40);
     color: #fff;
     font-family: 'Carter One';
-    width: 500px;
+    max-width: 450px;
     height: 50px;
 }
 
@@ -99,7 +97,7 @@
     display:flex;
     justify-content: start;
     align-items: center;
-    width: 500px;
+    max-width: 450px;
     margin:0px auto;
     background: rgb(0, 20, 40);
 }
@@ -108,7 +106,7 @@
     display:flex;
     justify-content: start;
     align-items: center;
-    width: 500px;
+    max-width: 450px;
     margin:0px auto;
     background: rgb(0, 20, 40);
 }
